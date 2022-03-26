@@ -12,13 +12,15 @@
 		B7A6A0C259E949054686602E /* Pods_ParsagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D8A615BE3E4314DB8EC54 /* Pods_ParsagramTests.framework */; };
 		EE887C8227EE735A00842048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887C8127EE735A00842048 /* AppDelegate.swift */; };
 		EE887C8427EE735A00842048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887C8327EE735A00842048 /* SceneDelegate.swift */; };
-		EE887C8627EE735A00842048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887C8527EE735A00842048 /* ViewController.swift */; };
 		EE887C8927EE735A00842048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE887C8727EE735A00842048 /* Main.storyboard */; };
 		EE887C8B27EE735C00842048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE887C8A27EE735C00842048 /* Assets.xcassets */; };
 		EE887C8E27EE735C00842048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE887C8C27EE735C00842048 /* LaunchScreen.storyboard */; };
 		EE887C9927EE735C00842048 /* ParsagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887C9827EE735C00842048 /* ParsagramTests.swift */; };
 		EE887CA327EE735C00842048 /* ParsagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887CA227EE735C00842048 /* ParsagramUITests.swift */; };
 		EE887CA527EE735C00842048 /* ParsagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887CA427EE735C00842048 /* ParsagramUITestsLaunchTests.swift */; };
+		EE887CB227EEB1D300842048 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887CB127EEB1D300842048 /* LoginViewController.swift */; };
+		EE887CB427EEB1F200842048 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887CB327EEB1F200842048 /* FeedViewController.swift */; };
+		EE9A500627EEC11600E79FFA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9A500527EEC11600E79FFA /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +53,6 @@
 		EE887C7E27EE735A00842048 /* Parsagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE887C8127EE735A00842048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE887C8327EE735A00842048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE887C8527EE735A00842048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE887C8827EE735A00842048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE887C8A27EE735C00842048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE887C8D27EE735C00842048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +62,9 @@
 		EE887C9E27EE735C00842048 /* ParsagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParsagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE887CA227EE735C00842048 /* ParsagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsagramUITests.swift; sourceTree = "<group>"; };
 		EE887CA427EE735C00842048 /* ParsagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE887CB127EEB1D300842048 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EE887CB327EEB1F200842048 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		EE9A500527EEC11600E79FFA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,6 @@
 				38A000E16696F89A57F84675 /* Pods-ParsagramTests.debug.xcconfig */,
 				9297B9EBD219BE61046990CA /* Pods-ParsagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,11 +145,13 @@
 			children = (
 				EE887C8127EE735A00842048 /* AppDelegate.swift */,
 				EE887C8327EE735A00842048 /* SceneDelegate.swift */,
-				EE887C8527EE735A00842048 /* ViewController.swift */,
 				EE887C8727EE735A00842048 /* Main.storyboard */,
 				EE887C8A27EE735C00842048 /* Assets.xcassets */,
 				EE887C8C27EE735C00842048 /* LaunchScreen.storyboard */,
 				EE887C8F27EE735C00842048 /* Info.plist */,
+				EE887CB127EEB1D300842048 /* LoginViewController.swift */,
+				EE887CB327EEB1F200842048 /* FeedViewController.swift */,
+				EE9A500527EEC11600E79FFA /* CameraViewController.swift */,
 			);
 			path = Parsagram;
 			sourceTree = "<group>";
@@ -407,8 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE887C8627EE735A00842048 /* ViewController.swift in Sources */,
+				EE887CB227EEB1D300842048 /* LoginViewController.swift in Sources */,
+				EE9A500627EEC11600E79FFA /* CameraViewController.swift in Sources */,
 				EE887C8227EE735A00842048 /* AppDelegate.swift in Sources */,
+				EE887CB427EEB1F200842048 /* FeedViewController.swift in Sources */,
 				EE887C8427EE735A00842048 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
