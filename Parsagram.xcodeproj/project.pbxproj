@@ -21,6 +21,7 @@
 		EE887CB227EEB1D300842048 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887CB127EEB1D300842048 /* LoginViewController.swift */; };
 		EE887CB427EEB1F200842048 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE887CB327EEB1F200842048 /* FeedViewController.swift */; };
 		EE9A500627EEC11600E79FFA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9A500527EEC11600E79FFA /* CameraViewController.swift */; };
+		EE9A500827EECEEB00E79FFA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9A500727EECEEB00E79FFA /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		EE887CB127EEB1D300842048 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EE887CB327EEB1F200842048 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		EE9A500527EEC11600E79FFA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		EE9A500727EECEEB00E79FFA /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				EE887CB127EEB1D300842048 /* LoginViewController.swift */,
 				EE887CB327EEB1F200842048 /* FeedViewController.swift */,
 				EE9A500527EEC11600E79FFA /* CameraViewController.swift */,
+				EE9A500727EECEEB00E79FFA /* PostCell.swift */,
 			);
 			path = Parsagram;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				EE887C8227EE735A00842048 /* AppDelegate.swift in Sources */,
 				EE887CB427EEB1F200842048 /* FeedViewController.swift in Sources */,
 				EE887C8427EE735A00842048 /* SceneDelegate.swift in Sources */,
+				EE9A500827EECEEB00E79FFA /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
